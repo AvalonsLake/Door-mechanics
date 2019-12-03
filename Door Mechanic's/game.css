@@ -1,0 +1,48 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+}
+body {
+    background-color: #ceb369;
+
+}
+
+h1 {
+    color: #000000;
+    font-size: 26px;
+    text-align: center;
+}
+nav a {
+    color: #0704ac;
+}
+.start {
+    width: 400px;
+    Height: 400px;
+    padding-top: 150px;
+    padding-left: 50px;
+    margin: 15px auto 15px auto;
+}
+p {
+    color: #000000;
+    padding-left: 83px;
+    font-size: 20px;
+}
+.door {
+    content: url(images/door-closed.png);
+    width:0px;
+    height:0px;
+    background:url(images/door-closed.png);
+    background-repeat: no-repeat;
+    padding: 150px;
+}
+
+.door:hover {
+    width:0px;
+    height: 0px;
+    background: url(images/door-open.png);
+    background-repeat: no-repeat;
+    padding: 150px 150px 170px 150px;
+}
